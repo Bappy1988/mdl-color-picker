@@ -8,24 +8,28 @@ const validate = (color, weight) => {
     }
 }
 
-export const colors = Object.keys(data);
+let colors = {};
+Object.keys(data).forEach(key => {
+    colors.key = key;
+});
+export const colors;
 
-export const weights = [
-    'W50',
-    'W100',
-    'W200',
-    'W300',
-    'W400',
-    'W500',
-    'W600',
-    'W700',
-    'W800',
-    'W900',
-    'A100',
-    'A200',
-    'A400',
-    'A700',
-];
+export const weights = {
+    'W50': 'W50',
+    'W100': 'W100',
+    'W200': 'W200',
+    'W300': 'W300',
+    'W400': 'W400',
+    'W500': 'W500',
+    'W600': 'W600',
+    'W700': 'W700',
+    'W800': 'W800',
+    'W900': 'W900',
+    'A100': 'A100',
+    'A200': 'A200',
+    'A400': 'A400',
+    'A700': 'A700'
+};
 
 export const getTextClass = (color, weight) => {
     validate(color, weight);
