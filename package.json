@@ -1,0 +1,36 @@
+{
+  "name": "mdl-color-picker",
+  "version": "0.0.1",
+  "description": "A quick and easy util for pulling the classnames and hex values for the colour palette provided by Google's Material Design Lite project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bappy1988/mdl-color-picker.git"
+  },
+  "keywords": [
+    "mdl",
+    "material",
+    "design",
+    "lite",
+    "color",
+    "colour",
+    "picker",
+    "helper",
+    "css",
+    "classname",
+    "className"
+  ],
+  "author": "Ben Ward",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Bappy1988/mdl-color-picker/issues"
+  },
+  "homepage": "https://github.com/Bappy1988/mdl-color-picker#readme",
+  "devDependencies": {
+    "csv-parse": "^2.0.0"
+  }
+}
