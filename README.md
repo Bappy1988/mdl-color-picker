@@ -1,5 +1,7 @@
 # mdl-color-picker
-A quick and easy util for pulling the classnames and hex values for the colour palette provided by Google's Material Design Lite project
+A quick and easy util for pulling the classnames and hex values for the color palette provided by Google's Material Design Lite project.
+
+NOTE: this project does not include the material design css files. If you're after a helper to grab some color classes I'm assuming you've already got the mdl css files. 
 
 ## usage
 Importing is dead easy;
@@ -42,3 +44,6 @@ let myColor = getHex(colors.red);
 to get a full red color. all colors support this.
 
 there are 2 special colors; `colors.black` and `colors.white` which support **no weights**. these can only referenced without a weight. use `colors.grey` or `colors.blueGrey` for that.
+
+## why?
+what's the point of this module? simply that intellisense type hinting in an ide with eslint enabled should mean that when you type `colors.` into the IDE, you'll get a list of colors that you can use without having to constantly cross-reference a list of mdl colors.
